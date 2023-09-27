@@ -1,11 +1,17 @@
 h1, h2, h3{
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
 }
-body, html {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-image: url('./Portada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contenedor {
